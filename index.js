@@ -1,9 +1,9 @@
 //import { addAFish, getAllFish, deleteAFish, updateFish } from "./src/fish.js"
 import { closeCLient } from "./src/connectDb.js";
-import { addCar, getAllCar } from "./src/car.js";
+import { addCar, deleteCar, getAllCar,updateCar } from "./src/car.js";
 
 
 
-await addCar();
+await updateCar();
 await getAllCar();
 await closeCLient();
